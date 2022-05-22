@@ -4,7 +4,7 @@ Image Processing Project Face Mask Detection via Keras/Tensorflow, Python, OpenC
 
 ## About The Project
 
-It is a project for Akdeniz University Computer Science Department - Image Processing Lesson.
+It is a project for  UniversAkdenizity Computer Science Department - Image Processing Lesson.
 
 ### INTRODUCTION TO PROBLEM
 Medical masks are being used for a long time in history. Due to the pandemic situation we are in the middle of, medical masks are having much more importance day by day. The virus we are trying to avoid from, cannot be reach a human body itself; it can only reach from the eyes and nose or mouth. Medical masks help us in that point.

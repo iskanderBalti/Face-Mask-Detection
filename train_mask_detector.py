@@ -15,19 +15,20 @@ from tensorflow.keras.utils import to_categorical
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from imutils import paths
+
 import matplotlib.pyplot as plt
 import numpy as np
 import os
+
 
 # initialize the initial learning rate, number of epochs to train for,
 # and batch size
 # we applied less learning rate because less learning rate means loss will be calculated properly.
 INIT_LR = 1e-4
-EPOCHS = 20
+EPOCHS = 2
 BS = 32
 
-DIRECTORY = r"/Users/nidadinc/Desktop/face2/dataset"
+DIRECTORY = r"D:\Master\projects\Face-Mask-Detection\dataset"
 CATEGORIES = ["with_mask", "without_mask"]
 
 # grab the list of images in our dataset directory, then initialize
